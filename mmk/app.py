@@ -31,8 +31,8 @@ def extract_features(img_path,model):
     return normalized_result
 
 filenames = []
-for file in os.listdir('/home/sahil/Documents/ai-for-fashion-main/mmk/images'):
-   filenames.append(os.path.join('/home/sahil/Documents/ai-for-fashion-main/mmk/images', file))
+for file in os.listdir('/ai-for-fashion-main/mmk/images'):
+   filenames.append(os.path.join('/ai-for-fashion-main/mmk/images', file))
 
 feature_list = []
 
