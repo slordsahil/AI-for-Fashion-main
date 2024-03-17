@@ -92,6 +92,7 @@ def similar():
                 indices = recommend(features, feature_list)
                 # show
                 col1, col2, col3, col4, col5 = st.columns(5)
+                
 
                 with col1:
                     st.image(filenames[indices[0][0]])
